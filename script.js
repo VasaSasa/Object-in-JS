@@ -113,12 +113,107 @@ console.log(array01)
 
 
 
+//function myFunction(st,ar) {
+
+//}
 
 
 
 
+//function myFunction()
 
 
 
+/*
+let item;
+let array01 = []
+let string01;
+function mainFunction() {
+    while (true) {
+        item = prompt("Enter item of list: ");
+        array01.push(item);
+        if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+            break
+        }
+    }
+    string01 = prompt("Enter whatever you want: ");
+    array01.push(string01);
+    array01.unshift(string01);
+    console.log(array01);
+}
 
 
+mainFunction()
+
+*/
+
+/*
+function myFunction(ar,st) {
+    ar.push(st + "!!");
+    ar.unshift(st + "$$");
+    console.log(ar)
+}
+
+
+let item;
+let array01 = []
+let string01;
+function mainFunction() {
+    while (true) {
+        item = prompt("Enter item of list: ");
+        array01.push(item);
+        if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+            break
+        }
+    }
+    string01 = prompt("Enter whatever you want: ");
+    //array01.push(string01);
+    //array01.unshift(string01);
+    //console.log(array01);
+    myFunction(array01,string01)
+}
+
+
+mainFunction()
+
+*/
+
+/*
+function myFunction(ar,st) {
+    ar.push(st + "!!");
+    ar.unshift(st + "$$");
+    console.log(ar)
+}
+
+function mainFunction() {
+    let item;
+    let array01 = [];
+    let string01;
+    while (true) {
+        item = prompt("Enter item of list: ");
+        array01.push(item);
+        if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+            break
+        }
+    }
+    string01 = prompt("Enter whatever you want: ");
+    myFunction(array01,string01)
+}
+
+
+mainFunction();
+
+*/
+
+
+/*
+function myFunction(ar,st) {
+    ar.push(st + "!!");
+    ar.unshift(st + "$$");
+    console.log(ar)
+}
+
+
+
+myFunction(['auto','eva'],'2000');
+*/

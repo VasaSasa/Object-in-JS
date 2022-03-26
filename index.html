@@ -13,7 +13,6 @@
 
 
 <pre>
-<code>
     <h2>Task</h2>
     let stop = true;
     let array01 = []
@@ -29,7 +28,6 @@
 
 
     console.log(array01)
-</code>
 </pre>
 
 
@@ -62,6 +60,115 @@
     
     mainFunction();
 </pre>
+<pre>
+    <h2>Task</h2>
+    let item;
+    let array01 = []
+    let string01;
+    function mainFunction() {
+        while (true) {
+            item = prompt("Enter item of list: ");
+            array01.push(item);
+            if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+                break
+            }
+        }
+        string01 = prompt("Enter whatever you want: ");
+        array01.push(string01);
+        array01.unshift(string01);
+        console.log(array01);
+    }
+
+
+    mainFunction()
+</pre>
+
+<pre>
+    <h2>Task</h2>
+
+</pre>
+
+<pre class="wrong01">
+    <h2 class="wrong01">Task</h2>
+    function myFunction(ar,st) {
+        ar.push(st + "!!");
+        ar.unshift(st + "$$");
+        console.log(ar)
+    }
+    
+    
+    let item;
+    let array01 = []
+    let string01;
+    function mainFunction() {
+        while (true) {
+            item = prompt("Enter item of list: ");
+            array01.push(item);
+            if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+                break
+            }
+        }
+        string01 = prompt("Enter whatever you want: ");
+        //array01.push(string01);
+        //array01.unshift(string01);
+        //console.log(array01);
+        myFunction(array01,string01)
+    }
+    
+    
+    mainFunction()
+    
+</pre>
+
+<pre>
+    <h2>Task</h2>
+    function myFunction(ar,st) {
+        ar.push(st + "!!");
+        ar.unshift(st + "$$");
+        console.log(ar)
+    }
+    
+    function mainFunction() {
+        let item;
+        let array01 = [];
+        let string01;
+        while (true) {
+            item = prompt("Enter item of list: ");
+            array01.push(item);
+            if (prompt("Would you like to proceed to enter items? (y/n)") == "n") {
+                break
+            }
+        }
+        string01 = prompt("Enter whatever you want: ");
+        myFunction(array01,string01)
+    }
+    
+    
+    mainFunction();
+    
+</pre>
+
+<pre>
+    <h2>Task</h2>
+    
+</pre>
+
+<pre>
+    <h2>Task</h2>
+    
+</pre>
+
+<pre>
+    <h2>Task</h2>
+    
+</pre>
+
+
+<pre>
+    <h2>Task</h2>
+    
+</pre>
+
 
 
     

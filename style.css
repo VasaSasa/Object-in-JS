@@ -26,4 +26,10 @@ h2 {
 
 pre {
     background-color: green;
+    padding-bottom: 20px;
+}
+
+
+.wrong01 {
+    text-decoration: line-through;
 }
