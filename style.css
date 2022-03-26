@@ -16,3 +16,14 @@ h1 {
 
 
 
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+pre {
+    background-color: green;
+}
