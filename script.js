@@ -217,3 +217,39 @@ function myFunction(ar,st) {
 
 myFunction(['auto','eva'],'2000');
 */
+
+
+
+function myFunction(x1) {
+    let number = 10;
+    console.log(x1 + number)
+    return x1 * 5;
+    
+}
+
+console.log(myFunction(50) + 50);
+
+
+const myFunction2 = function(x2) {
+    return x2 + 5;
+}
+
+myFunction2(10);
+
+
+console.log(myFunction2(20));
+
+
+
+const myFunction3 = (x3) => {
+    return x3 + 3;
+}
+
+console.log(myFunction3(10));
+
+
+const myFunction4 = x4 => x4 +10; 
+
+
+
+console.log(myFunction4(1000));
